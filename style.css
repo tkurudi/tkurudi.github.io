@@ -3,11 +3,15 @@
 }
 }	
 .navbar {
-  overflow: hidden;
-  background-color: #800000;
-  font-family: Arial;
-  text-decoration: none;
-  
+  background: linear-gradient(to bottom, #a1d3b0, #f6f1d3);
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
 }
 
 .navbar a {
@@ -62,7 +66,7 @@ body {
 	background-color: #EEE;
 }
 .container {
-	background-color: blue;
+	background-color: #EEE;
 	width: 800px;
 	margin-left: auto;
 	margin-right: auto;
