@@ -1,70 +1,88 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<link rel="stylesheet" type="text/css" href="../style.css">
-<title>Page Title</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+
+  <link rel="stylesheet" href="../css/main.css">
+  <title>Welcome To My Portfolio</title>
 </head>
-<body>
-<nav class="navbar">
-    <span class="open-slide">
-      <a href="#" onclick="openSlideMenu()">
-        <img src="../images/navbar.png" id="navimg" alt="navimg1">
+
+<body id="bg-img">
+  <header>
+    <div class="menu-btn">
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+    </div>
+
+    <nav class="menu">
+      <div class="menu-branding">
+        <div class="portrait"></div>
+      </div>
+      <ul class="menu-nav">
+        <li class="nav-item current">
+          <a href="index.html" class="nav-link">
+            Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="about.html" class="nav-link">
+            About Me
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="Projects.html" class="nav-link">
+           Projects
+          </a>
+        </li>
+        <li class="nav-item current">
+            <a href="Blogs.html" class="nav-link">
+              Read My Blogs!
+            </a>
+          </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="home">
+    <div class="container">
+    <h1 class="lg-heading">
+      Tarun
+      <span class="text-secondary">Kurudi</span>
+    </h1>
+    <h2 class="sm-heading">
+      Junior Web Developer, DEV Academy Student
+    </h2>
+    <div class="icons">
+      <a href="#!">
+        <i class="fab fa-twitter fa-2x"></i>
       </a>
-    </span>
-
-    <ul class="navbar-nav">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
-      <div class="dropdown">
-  <button class="dropbtn">Blog</button>
-  <div class="dropdown-content">
-    <a href="./Blog/blog-template">Template</a>
-    <a href="./Blog/c1-reflection-blog.html">Reflection</a>
-    <a href="./Blog/c1-time-and-habits-blog.html">T&H</a>
-    <a href="./Blog/t2-html-css-dom-p1.html">p1</a>
-    <a href="./Blog/t2-html-css-dom-p2.html">p2</a>
-    <a href="./Blog/t3-design-to-web-blog.html">tech blog</a>
-    <a href="./Blog/cd-meditation-process.html">meditation</a>
-    <a href="./Blog/t4-javascript-basics">java</a>
-    <a href="./Blog/c4-daily-mindfulness.html">c4</a>
-
-  </div>
-</div>
-      
-    </ul>
-  </nav>
-
-  <div id="side-menu" class="side-nav">
-    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
-    <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Blog</a>
-    <a href="#">Contact</a>
-  </div>
-  <header><img src="../images/logo.png" class="logo"></header>
-
-  <div id="main">
-    <h1></h1>
-  </div>
-
-  <script>
-    function openSlideMenu(){
-      document.getElementById('side-menu').style.width = '250px';
-      document.getElementById('main').style.marginLeft = '250px';
-    }
-
-    function closeSlideMenu(){
-      document.getElementById('side-menu').style.width = '0';
-      document.getElementById('main').style.marginLeft = '0';
-    }
-  </script>
-<h1>blog q's</h1>
+      <a href="#!">
+        <i class="fab fa-facebook fa-2x"></i>
+      </a>
+      <a href="#!">
+        <i class="fab fa-linkedin fa-2x"></i>
+      </a>
+      <a href="#!">
+        <i class="fab fa-github fa-2x"></i>
+      </a>
+    </div>
+  
+  <h1>c6 control. </h1>
 <p>
-	When programming, what are some of your triggers? What causes a disproportionate emotional response?
-  when I know my code is right, and its some small error that is holding the process up. Or when I cant find the answer on google.
- How did you find the Siberian North Railroad exercise (Stop, Breathe, Notice, Reflect, Respond)? helps me relax and not get too caught up in my thoughts. and start from fresh.
-  </p>
-
+    When programming, what are some of your triggers? What causes a disproportionate emotional response?
+    when I know my code is right, and its some small error that is holding the process up. Or when I cant find the answer on google.
+   How did you find the Siberian North Railroad exercise (Stop, Breathe, Notice, Reflect, Respond)? helps me relax and not get too caught up in my thoughts. and start from fresh.       
+</p>
+</div>
+</main>
+  <script src="js/main.js"></script>
 </body>
+
 </html>
